@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0140;
+    text-align: center;
+
+}
+
+.titulo {
+    padding: 35px;
+    background-color: #04BF8A;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bebas Neue';
+
+}
+
+.titulo a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 50px 50px 50px 50px;
+    color: white;
+}
+
+.foto_perfil {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.apresentacao_fundo {
+    background-color: #04BF8A;
+    display: flex;
+    padding: 3rem;
+
+}
+
+.apresentacao {
+    margin: 50px 500px 50px 500px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.sobre {
+    display: block;
+    justify-content: center;
+    margin: 150px 500px 150px 500px;
+    color: white;
+}
+
+.primeiro_emprego-fundo {
+    background-color: #04BF8A;
+    display: flex;
+    padding: 3rem;
+}
+
+.primeiro_emprego {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 500px 34px 500px;
+    color: white;
+}
+
+.voltar {
+    background-color: #0a0140;
+    border-radius: 10px;
+    padding: 3px;
+    text-decoration-line: none;
+    color: white;
+}
+
+.footer {
+    background-color: #0E3D59;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer img {
+    width: 50px;
+}
+
+.site :hover{
+    width: 53px;
+}
