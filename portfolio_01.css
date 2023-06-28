@@ -6,7 +6,13 @@ body {
 
 }
 
-.titulo {
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.navegacao {
     padding: 35px;
     background-color: #04BF8A;
     display: flex;
@@ -15,7 +21,7 @@ body {
 
 }
 
-.titulo a {
+.navegacao a {
     text-decoration-line: none;
     color: white;
 }
@@ -26,11 +32,12 @@ body {
     align-items: center;
     gap: 45px;
     margin: 50px 50px 50px 50px;
+    font-size: 30px;
     color: white;
 }
 
 .foto_perfil {
-    width: 250px;
+    width: 15%;
     border-radius: 100%;
 }
 
@@ -44,7 +51,8 @@ body {
 .apresentacao {
     margin: 50px 500px 50px 500px;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
+    font-size: 20px;
     color: white;
 
 }
@@ -52,7 +60,9 @@ body {
 .sobre {
     display: block;
     justify-content: center;
+    text-align: justify;
     margin: 150px 500px 150px 500px;
+    font-size: 20px;
     color: white;
 }
 
@@ -65,15 +75,23 @@ body {
 .primeiro_emprego {
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     margin: 50px 500px 34px 500px;
+    font-size: 20px;
     color: white;
 }
 
-.voltar {
+.voltar-fundo {
+    background-color: #04BF8A;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.voltar a {
     background-color: #0a0140;
-    border-radius: 10px;
     padding: 3px;
+    border-radius: 10px;
     text-decoration-line: none;
     color: white;
 }
@@ -89,6 +107,6 @@ body {
     width: 50px;
 }
 
-.site :hover{
+.site :hover {
     width: 53px;
 }
